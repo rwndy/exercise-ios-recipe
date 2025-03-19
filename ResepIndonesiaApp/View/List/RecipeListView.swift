@@ -1,14 +1,13 @@
 //
-//  ContentView.swift
+//  RecipeListView.swift
 //  ResepIndonesiaApp
 //
 //  Created by Riwandi on 19/03/25.
 //
 
-
 import SwiftUI
 
-struct ContentView: View {
+struct RecipeListView: View {
     let recipes = RecipeData.samples
     
     var body: some View {
@@ -30,6 +29,8 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
+struct RecipeListView_Previews: PreviewProvider {
+    static var previews: some View {
+        RecipeListView()
+    }
 }
