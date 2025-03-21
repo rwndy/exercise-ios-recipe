@@ -1,10 +1,3 @@
-//
-//  RecipeData.swift
-//  ResepIndonesiaApp
-//
-//  Created by Riwandi on 19/03/25.
-//
-
 import Foundation
 
 class RecipeData {
@@ -231,6 +224,165 @@ class RecipeData {
             cookingTime: "3 jam",
             servings: 4,
             region: "Jakarta"
+        ),
+       
+        Recipe(
+            name: "Ayam Betutu",
+            description: "Ayam Betutu adalah hidangan khas Bali berupa ayam utuh yang diisi dan dilumuri bumbu khas kemudian dipanggang dalam api sekam.",
+            imageName: "ayam_betutu",
+            ingredients: [
+                "1 ekor ayam utuh, bersihkan",
+                "15 siung bawang merah",
+                "10 siung bawang putih",
+                "10 buah cabai merah",
+                "5 buah cabai rawit",
+                "2 ruas kunyit, bakar",
+                "2 ruas kencur",
+                "2 ruas lengkuas",
+                "5 butir kemiri, sangrai",
+                "1 sdt ketumbar, sangrai",
+                "1/2 sdt merica",
+                "1 sdt terasi, bakar",
+                "2 batang serai, memarkan",
+                "5 lembar daun jeruk",
+                "3 lembar daun salam",
+                "2 sdm minyak kelapa",
+                "Garam secukupnya"
+            ],
+            instructions: [
+                "Haluskan semua bumbu kecuali serai, daun jeruk, dan daun salam.",
+                "Tumis bumbu halus bersama serai, daun jeruk, dan daun salam hingga harum.",
+                "Lumuri ayam dengan bumbu tumis, gosok rata hingga meresap ke dalam daging.",
+                "Diamkan ayam yang telah dilumuri bumbu selama minimal 1 jam, lebih lama lebih baik.",
+                "Panaskan oven dengan suhu 180°C. Bungkus ayam dengan daun pisang atau aluminium foil.",
+                "Panggang ayam selama sekitar 1,5-2 jam hingga matang dan empuk.",
+                "Buka bungkusan, panggang kembali ayam selama 15 menit hingga kulit sedikit kering.",
+                "Sajikan dengan plecing kangkung atau sayuran rebus lainnya."
+            ],
+            cookingTime: "2.5 jam",
+            servings: 4,
+            region: "Bali"
+        ),
+        Recipe(
+            name: "Rawon",
+            description: "Rawon adalah sup daging khas Jawa Timur dengan kuah hitam pekat yang berasal dari kluwek, disajikan dengan tauge dan telur asin.",
+            imageName: "rawon",
+            ingredients: [
+                "500g daging sapi, potong dadu",
+                "5 buah kluwek, ambil isinya, rendam air panas",
+                "8 siung bawang merah",
+                "4 siung bawang putih",
+                "3 butir kemiri, sangrai",
+                "1 ruas lengkuas, memarkan",
+                "2 ruas kunyit",
+                "1 ruas jahe",
+                "3 lembar daun jeruk",
+                "2 lembar daun salam",
+                "2 batang serai, memarkan",
+                "1 sdm air asam jawa",
+                "1 sdt merica bubuk",
+                "Garam secukupnya",
+                "Pelengkap:",
+                "Tauge pendek, seduh air panas",
+                "Telur asin",
+                "Daun bawang, iris halus",
+                "Bawang goreng",
+                "Sambal terasi",
+                "Jeruk nipis"
+            ],
+            instructions: [
+                "Rebus daging dengan api kecil hingga empuk, sekitar 1,5-2 jam. Sisihkan kaldu dan potong daging.",
+                "Haluskan kluwek, bawang merah, bawang putih, kemiri, kunyit, jahe hingga halus.",
+                "Tumis bumbu halus bersama serai, daun jeruk, daun salam, dan lengkuas hingga harum.",
+                "Masukkan daging yang sudah direbus, aduk rata dengan bumbu.",
+                "Tuang kaldu dan air asam jawa, masak dengan api kecil hingga mendidih dan bumbu meresap.",
+                "Tambahkan garam dan merica, koreksi rasa.",
+                "Sajikan rawon panas dengan tauge, telur asin, taburan daun bawang, dan bawang goreng.",
+                "Lengkapi dengan sambal terasi dan jeruk nipis."
+            ],
+            cookingTime: "2.5 jam",
+            servings: 5,
+            region: "Jawa Timur"
+        ),
+        Recipe(
+            name: "Pempek",
+            description: "Pempek adalah makanan khas Palembang berbahan dasar ikan dan tepung, disajikan dengan kuah cuka yang asam, manis, dan pedas.",
+            imageName: "pempek",
+            ingredients: [
+                "500g ikan tenggiri, giling halus",
+                "250g tepung sagu",
+                "100ml air es",
+                "3 siung bawang putih, haluskan",
+                "1 butir telur",
+                "2 sdt garam",
+                "1/2 sdt kaldu bubuk",
+                "Minyak untuk menggoreng",
+                "Bahan kuah cuko:",
+                "300ml air",
+                "100g gula merah, sisir",
+                "5 buah cabai rawit, haluskan",
+                "3 siung bawang putih, haluskan",
+                "1 sdt ebi, sangrai dan haluskan",
+                "3 sdm cuka",
+                "1 sdt garam",
+                "Pelengkap:",
+                "Timun, potong dadu",
+                "Mie kuning, rebus sebentar",
+                "Bawang merah goreng"
+            ],
+            instructions: [
+                "Campur ikan giling dengan bawang putih halus, garam, dan kaldu bubuk.",
+                "Tambahkan telur, aduk rata. Masukkan tepung sagu sedikit demi sedikit sambil diaduk.",
+                "Tuang air es sedikit demi sedikit sambil diuleni hingga kalis.",
+                "Bentuk adonan sesuai selera (lenjer, kapal selam, keriting, dll).",
+                "Didihkan air, rebus pempek hingga mengambang. Angkat dan tiriskan.",
+                "Goreng pempek dalam minyak panas hingga kecoklatan.",
+                "Untuk kuah cuko: Rebus air dan gula merah hingga larut.",
+                "Tambahkan bawang putih, cabai, ebi, garam. Masak hingga mendidih.",
+                "Tunggu kuah dingin, tambahkan cuka. Aduk rata.",
+                "Sajikan pempek dengan kuah cuko, timun, mie kuning, dan bawang merah goreng."
+            ],
+            cookingTime: "1.5 jam",
+            servings: 4,
+            region: "Sumatera Selatan"
+        ),
+        Recipe(
+            name: "Gudeg",
+            description: "Gudeg adalah makanan khas Yogyakarta terbuat dari nangka muda yang dimasak dengan santan dan bumbu khas hingga berwarna kecoklatan.",
+            imageName: "gudeg",
+            ingredients: [
+                "1 kg nangka muda, potong-potong",
+                "5 butir telur ayam, rebus dan kupas",
+                "250g dada ayam",
+                "5 lembar daun jati",
+                "3 lembar daun salam",
+                "3 lembar daun jeruk",
+                "2 batang serai, memarkan",
+                "500ml santan kental",
+                "500ml santan encer",
+                "100g gula merah, sisir",
+                "Bumbu halus:",
+                "10 siung bawang merah",
+                "6 siung bawang putih",
+                "5 butir kemiri, sangrai",
+                "1 sdm ketumbar, sangrai",
+                "1 ruas lengkuas",
+                "2 sdt garam",
+                "Pelengkap:",
+                "Sambal krecek",
+                "Areh (santan kental yang dimasak dengan daun salam dan garam)"
+            ],
+            instructions: [
+                "Rebus nangka muda hingga empuk, tiriskan dan potong-potong.",
+                "Tumis bumbu halus, daun salam, daun jeruk, dan serai hingga harum.",
+                "Masukkan nangka, ayam, telur, gula merah, dan daun jati.",
+                "Tuang santan encer, masak dengan api kecil hingga bumbu meresap dan santan menyusut.",
+                "Tambahkan santan kental, masak terus hingga santan mengental dan berwarna kecoklatan.",
+                "Gudeg siap disajikan dengan sambal krecek dan areh."
+            ],
+            cookingTime: "5 jam",
+            servings: 6,
+            region: "Yogyakarta"
         )
     ]
 }
